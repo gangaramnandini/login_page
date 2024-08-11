@@ -1,2 +1,2 @@
 # login_page
-First Git repo
+First Git repository
