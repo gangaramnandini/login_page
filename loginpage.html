@@ -6,6 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello</p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head> 
+<body>
+    <div class="maincointainer">
+        <div class="logincointainer">
+            <form action="/action.php">
+                <h2>Login</h2>
+                <div class="input1">
+                        <input type="text" id="name" name="username" placeholder="" required>
+                        <label for="name">Username</label>
+                </div>
+                <div class="input1">
+                    <input type="password" id="pswd" name="password" placeholder="" required>
+                    <label for="pswd">Password</label>
+                </div>
+                <div class="input_remember">
+                    <input type="checkbox" id="check" name="remember" value="remembered">
+                    <label for="check">Remember me</label>
+                </div>
+                <div class="input_button">
+                    <button type="Submit">Login</button>
+                </div>
+                <div class="input_link">
+                    <p>Don't have an account?<a class="a_link" href="#">Sign up</a></p>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
 </body>
 </html>
